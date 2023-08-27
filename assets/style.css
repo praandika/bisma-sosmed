@@ -6,7 +6,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: rgb(244, 244, 244);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url(../image/bg.jpg);
+    url(../image/bg6.jpg);
     background-size: cover;
 }
 
@@ -171,7 +171,7 @@ span.inputColor {
 
 .glass-box {
     position: absolute;
-    top: 30px;
+    top: 140px;
     width: 300px;
     height: 500px;
     border-radius: 50px;
@@ -195,8 +195,13 @@ span.inputColor {
 }
 
 .logo {
-    width: 100px;
-    margin-bottom: 10px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    clip-path: circle(50%);
+    -webkit-box-shadow: 2px 3px 50px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 50px -17px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 50px -17px rgba(0,0,0,0.75);
 }
 
 .depan {
